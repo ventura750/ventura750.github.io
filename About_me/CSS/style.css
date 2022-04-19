@@ -109,7 +109,7 @@ transition: all 0.3s ease 0s;
 
   justify-content: center;
 
-  margin-top: 240px;
+  margin-top: 200px;
 
    text-align: left;
 
@@ -117,9 +117,9 @@ transition: all 0.3s ease 0s;
 
   font-size: 25px;
 
-  margin-left: 300px;
+  margin-left: 330px;
 
-  margin-right: 300px;
+  margin-right: 330px;
 
 
 }
@@ -145,17 +145,10 @@ div{
 
 }
 
-.foto{
-
-  margin-left: 40px;
-}
-
 
 .icons1{
 
-  margin-top: 20px;
-
-  margin-left: 20px;
+  margin-top: 10px;
 
    display: flex;
 
@@ -166,7 +159,7 @@ div{
 
 .iconos{
 
-  margin-left: 15px;
+  padding: 7px;
 
 }
 
@@ -201,4 +194,23 @@ div{
 .icons3 img:hover{
 
  transform: scale(0.87);
+}
+
+
+.palabra{
+
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin-top: 50px;
+
+  font-family: 'Oswald', sans-serif;
+
+  font-size: 25px;
 }
