@@ -1,195 +1,208 @@
 
 *{
-
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-background-color: #121212;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+
+body, html{
+    height:100%;
+    line-height:1.8em;
+    
+  }
 
 
 /* INICI DE NAV */
 
+.header {
+  z-index: 15;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(0,0,0,.4);
+}
+
+
 li, a{
-
-font-family: "Montserrat", sans-serif;
-font-weight: 500;
-font-size: 16px;
-color: #edf0f1;
-text-decoration: none;
-}
-
-header {
-display: flex;
-justify-content: space-between;
-margin-top: 40px;
-margin-bottom: 70px;
-align-items: center;
-
+  text-decoration: none;
 }
 
 
-.navbar-brand {
+.navbar-brand{
   color: #fff;
   font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
-
   font-family: 'Stalinist One', cursive;
-
-  margin-left: 150px;
-
   transition: all 300ms;
-
 }
 
 .navbar-brand:hover{
+  transform: scale(0.87);
+}
 
+.iconos{
+  padding: 5px;
+}
+
+.icons1 img{
+  transition: all 300ms;
+}
+
+.icons1 img:hover{
  transform: scale(0.87);
 }
 
 
 .nav_links li {
-
-display: inline-block;
-padding: 0px 6px;
-
-transition: all 300ms;
-
+  display: inline-block;
+  padding: 0px 6px;
+  transition: all 300ms;
 }
 
 .nav_links li:hover{
-
- transform: scale(0.87);
+  transform: scale(0.87);
 }
-
-.nav_links{
-
-
-margin-right: 150px;
-
-}
-
 
 .nav-link{
-
- font-size: 18px;
-
-font-family: 'Saira Stencil One', cursive;
-
+  font-size: 18px;
+  font-family: 'Saira Stencil One', cursive;
+  margin-right: 15px;
 }
+
+nav{
+  margin-right: 107px;
+}
+
 
 .nav_links li a{
-
-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
+
+.inicioImagenes {
+  padding-top: 140px;
+  padding-left: 30px;
+}
 
 /* FINAL DE NAV */
 
 
-
-.inicioImagenes{
-
-  margin-top: 40px;
-}
-
 img{
-
-  padding: 1px;
-
-
+  padding: 4px;
 }
 
 
-#imagenes img{
-
+.ImagenesPoyecto img{
   widht: 100%;
+  transition: 300ms;
+}
 
-  transition: all 300ms;
+
+.ImagenesPoyecto img:hover{
+  transform: scale(0.95);
+  opacity: 85%;
+}
+
+
+.pimg1{
+    position:relative;
+    padding-left: 3px;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-image:url('../../Imatges/fondo1.png');
+    min-height:100%;
+  }
+
+
+.pimg2{
+
+  color:white;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-image:url('../../Imatges/fondo2.jpg');
+  min-height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size:32px;
+
+  }
+
+
+  .pimg3{
+
+  color:white;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-image:url('../../Imatges/fondo3.jpg');
+  min-height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size:32px;
+
 
  
-
-}
-
-#imagenes img:hover{
-
-  transform: scale(0.95);
-
-  background: whitesmoke;
-
-  opacity: 70%;
-}
+  }
 
 
 
-
-.icons1{
-
-   display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-}
-
-.iconos{
-
-  padding: 7px;
-
+.section{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding: 100px;
 }
 
 
-
-.icons1 img{
-
-  transition: all 300ms;
-}
-
-
-
-.icons2 img{
-
-  transition: all 300ms;
-}
-
-.icons3 img{
-
-  transition: all 300ms;
-}
-
-.icons1 img:hover{
-
- transform: scale(0.87);
-}
-
-.icons2 img:hover{
-
- transform: scale(0.87);
-}
-
-
-.icons3 img:hover{
-
- transform: scale(0.87);
-}
-
-
-.palabra{
-
-
-  color: white;
-
+.text1{
+  margin-top: 20px;
   display: flex;
-
   align-items: center;
-
   justify-content: center;
-
-  margin-top: 10px;
-
-  font-family: 'Oswald', sans-serif;
-
-  font-size: 25px;
+  color: #179ADF;
 }
+
+
+.text2{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.softwares{
+  padding: 10px;
+  transition: all 300ms;
+}
+
+
+.softwares:hover{
+  transform: scale(0.87);
+}
+
+
+.programas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
