@@ -83,37 +83,39 @@ nav{
   transition: all 0.3s ease 0s;
 }
 
-
-.inicioImagenes {
-  padding-top: 140px;
-  padding-left: 23px;
-  height:100%;
-  widht:100%;
- 
- 
- 
-}
-
 /* FINAL DE NAV */
 
 
 img{
   padding: 4px;
-}
 
+}
 
 .ImagenesPoyecto img{
   
   transition: 300ms;
-
-
 }
-
 
 .ImagenesPoyecto img:hover{
   transform: scale(0.95);s
   opacity: 85%;
 }
+
+
+.inicioImagenes{
+  padding-top: 140px;
+  padding-left: 23px;
+  height:100%;
+  widht:100%;
+}
+
+.inicioImagenes img{
+  height:100%;
+  widht:100%;
+}
+
+
+
 
 
 .pimg1{
