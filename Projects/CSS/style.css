@@ -104,15 +104,14 @@ img{
 
 .inicioImagenes{
   padding-top: 140px;
-  padding-left: 23px;
+
   height:100%;
   widht:100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.inicioImagenes img{
-  height:100%;
-  widht:100%;
-}
 
 
 
