@@ -86,9 +86,10 @@ nav{
 
 .inicioImagenes {
   padding-top: 140px;
-  padding-left: 30px;
-  min-height:100%;
-  min-widht:100%;
+  padding-left: 23px;
+  height:100%;
+  widht:100%;
+ 
  
  
 }
@@ -104,6 +105,7 @@ img{
 .ImagenesPoyecto img{
   
   transition: 300ms;
+
 
 }
 
