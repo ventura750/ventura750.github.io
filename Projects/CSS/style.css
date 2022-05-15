@@ -69,8 +69,8 @@ li, a{
 }
 
 .nav-link{
-  font-size: 18px;
-  font-family: 'Saira Stencil One', cursive;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
   margin-right: 15px;
 }
 
@@ -88,8 +88,6 @@ nav{
 
 img{
   padding: 4px;
-
-
 }
 
 .ImagenesPoyecto img{
@@ -112,13 +110,6 @@ img{
   justify-content: center;
   
 }
-
-
-
-
-
-
-
 
 
 .pimg1{
@@ -149,7 +140,6 @@ img{
   justify-content: center;
   color:white;
   font-size:32px;
-
   }
 
 
@@ -168,9 +158,6 @@ img{
   justify-content: center;
   color:white;
   font-size:32px;
-
-
- 
   }
 
 
