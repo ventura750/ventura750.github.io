@@ -86,7 +86,7 @@ nav{
 /* FINAL DE NAV */
 
 
-img{
+ img{
   padding: 4px;
 }
 
@@ -96,21 +96,28 @@ img{
 }
 
 .ImagenesPoyecto img:hover{
-  transform: scale(0.95);s
+  transform: scale(0.95);
   opacity: 85%;
 }
 
-
 .inicioImagenes{
-  padding-top: 140px;
+  padding-top: 160px;
   height:100%;
   widht:100%;
   text-align: center;
   align-items: center;
   justify-content: center;
-  
 }
 
+.images{
+  width:16%;
+}
+
+@media screen and (max-width: 1125px){
+  .images{
+    min-width: 297px;
+  }
+}
 
 .pimg1{
     position:relative;
