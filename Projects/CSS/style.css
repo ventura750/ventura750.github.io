@@ -146,7 +146,6 @@ nav{
   align-items: center;
   justify-content: center;
   color:white;
-  font-size:32px;
   }
 
 
@@ -164,7 +163,6 @@ nav{
   align-items: center;
   justify-content: center;
   color:white;
-  font-size:32px;
   }
 
 
@@ -178,38 +176,67 @@ nav{
 
 
 .text1{
-  margin-top: 20px;
-  display: flex;
+  font-size: 32px;
   align-items: center;
   justify-content: center;
-  color: #179ADF;
+   font-family: 'Oswald', sans-serif;
 }
 
 
 .text2{
-  font-size: 24px;
-  display: flex;
+  font-size:28px;
   align-items: center;
   justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: skyblue;
 }
 
-
-.softwares{
-  padding: 10px;
-  transition: all 300ms;
-}
-
-
-.softwares:hover{
-  transform: scale(0.87);
-}
-
-
-.programas{
-  display: flex;
+.text3{
+  font-size:23px;
   align-items: center;
   justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 
+.text4{
+  font-size:28px;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: skyblue;
+}
 
+.text5{
+  font-size:23px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.info1{
+  float:center;
+  width: 370px;
+  margin-top: 50px;
+}
+
+.info2{
+  float:center;
+  width: 370px;
+  margin-top: 27px;
+}
+
+.info3{
+  float:center;
+  width: 370px;
+ 
+}
+
+.information{
+   align-items: center;
+  justify-content: center;
+  display: flex;
+}

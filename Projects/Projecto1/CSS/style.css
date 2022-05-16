@@ -9,7 +9,6 @@ body, html{
     height:100%;
     line-height:1.8em;
     position:relative;
-   
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -111,7 +110,13 @@ img{
 
 .text{
   padding-top: 40px;
-  font-size: 21px;
+  font-size: 23px;
+   font-family: 'Oswald', sans-serif;
+}
+
+.titulo{
+   font-family: 'Oswald', sans-serif;
+   font-size: 32px;
 }
 
 
