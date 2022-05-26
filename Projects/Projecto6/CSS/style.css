@@ -110,13 +110,15 @@ img{
 
 .text{
   padding-top: 40px;
-  font-size: 23px;
+  font-size: 26px;
    font-family: 'Oswald', sans-serif;
+   padding-left: 250px;
+   padding-right: 250px;
 }
 
 .titulo{
    font-family: 'Oswald', sans-serif;
-   font-size: 32px;
+   font-size: 36px;
 }
 
 
